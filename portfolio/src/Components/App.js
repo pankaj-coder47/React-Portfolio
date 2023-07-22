@@ -1,9 +1,12 @@
 import React from 'react'
-
+import './app.css'
+import { About, Home, Nav } from '../Containers'
 export default function App() {
   return (
-    <div>
-      this is app component
-    </div>
+  <>
+  <Nav/>
+  <Home/>
+  <About/>
+  </>
   )
 }
