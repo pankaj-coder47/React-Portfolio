@@ -156,7 +156,7 @@
 @media  (max-width: 1230px) {
   .home-section{
     padding: 15rem 5rem 5rem 5rem;
-    height: auto;
+  height:auto;
   }
   
 .home-blob{
@@ -164,43 +164,6 @@
   height: 30rem;
 }
 }
-/* @media  (max-width: 1020px) { */
-  /* .home-section{ */
-    /* padding: 15rem 5rem 5rem 5rem; */
-  /* } */
-  /*  */
-/* .home-blob{ */
-  /* width: 20rem; */
-  /* height: 20rem; */
-/* } */
-/* .home-text h2 { */
-  /* color: #2d2e32; */
-  /* font-size: 3rem; */
-  /* line-height: 1.2; */
-/* } */
-/* .home-text h2 img { */
-  /* height: 3rem; */
-  /* width: 3rem; */
-/* } */
-/* .home-text span a .colorfor { */
-  /* font-size: 2rem; */
-  /* padding-top: 2rem; */
-  /* cursor: pointer; */
-/* } */
-/* .tech-stack { */
-  /* gap: 2rem; */
-/* } */
-/* .home-logo ul li{ */
-  /* height: 3rem; */
-  /* width: 3rem; */
-/* } */
-/* .home-logo ul li img { */
-  /* height: 1.5rem; */
-  /* width: 1.5rem; */
-/* } */
-/*  */
-/*  */
-/* } */
 
 @media (max-width:1020px) {
   html,body{
@@ -239,5 +202,10 @@
 @media (max-width:290px) {
   html,body{
     font-size: 30%;
+  }
+}
+@media (max-width:210px) {
+  html,body{
+    font-size: 25%;
   }
 }

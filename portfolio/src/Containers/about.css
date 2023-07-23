@@ -4,13 +4,15 @@
     align-items: center;
     height: 100vh;
     width: 100%;
-    padding: 5rem 15rem 5rem 15rem;
+    gap: 10rem;
+    padding: 15rem 15rem 10rem 15rem;
     position: relative;
+    background:cadetblue;
 }
 
 .about-image img {
     animation: topdown 2s alternate-reverse infinite;
-    width: 55rem;
+    width: 50rem;
 }
 
 @keyframes topdown {
@@ -22,9 +24,8 @@
         transform: translateY(1rem);
     }
 }
-
-.about-me {
-    padding: 2rem 4rem 0 4rem;
+.about-me{
+    padding: 1rem;
 }
 
 .about-me h3 {
@@ -51,12 +52,24 @@
     line-height: 1.5;
 }
 
+@media (max-width: 1350px) {
+    .about-section{
+    padding: 5rem 5rem 5rem 5rem;
+    height: 100%;
+    }
+    .about-me{
+    padding: 5rem 0rem 5rem 5rem;
+    }
+    .about-image img {
+        width: 40rem;
+    }
+}
 @media (max-width: 1027px) {
     .about-section {
         align-items: center;
         padding: 10rem 5rem 10rem 5rem;
         flex-direction: column;
-        height: auto;
+
     }
 
     .about-me {

@@ -29,7 +29,13 @@
     color:var(--text-color);
     text-decoration: none;
     font-weight: 600;
-
+    transition: all 0.3s linear;
+}
+.nav-list .active{
+    color:  rgb(159, 50, 0);
+}
+.nav-list a:hover{
+    color: rgb(159, 50, 0);
 }
 .mobile-view{
     display: none;
