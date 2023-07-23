@@ -1,6 +1,6 @@
 import React from 'react'
 import './app.css'
-import { About, Home, Nav, Project } from '../Containers'
+import { About, Contact, Home, Nav, Project } from '../Containers'
 export default function App() {
   return (
   <>
@@ -8,6 +8,7 @@ export default function App() {
   <Home/>
   <About/>
   <Project/>
+  <Contact/>
   </>
   )
 }

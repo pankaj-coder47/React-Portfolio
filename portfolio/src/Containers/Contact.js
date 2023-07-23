@@ -2,7 +2,13 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div className='flex-class' id='Contact'>
-    </div>
+    <section id="Contact " className='Contact-section'>
+      <div className="contact-heading">
+
+      </div>
+      <div className="contact-details">
+        
+      </div>
+    </section>
   )
 }

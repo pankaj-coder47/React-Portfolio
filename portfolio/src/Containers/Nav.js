@@ -3,12 +3,11 @@ import './nav.css'
 export default function Nav() {
   const [Toggle, SetToggle] = useState(false)
 
-
   return (
-    <nav className="navbar desktop">
-      <h4 className='nav-logo' id='#home'>webdev.dhanji</h4>
+    <nav className="navbar desktop" >
+      <h4 className='nav-logo' >webdev.dhanji</h4>
       <div className="nav-list">
-        <a href="#Home " className='active'>Home</a>
+        <a href="#Home" className='active'>Home</a>
         <a href="#About">About</a>
         <a href="#Project">Project</a>
         <a href="#Contact">Contact</a>

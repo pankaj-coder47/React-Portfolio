@@ -1,5 +1,5 @@
 .project-section{
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -110,6 +110,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     font-weight: 600;
     margin-bottom: 1rem;
+    border-radius: 0.5rem;
 }
 
 .project-livedemo{
@@ -165,8 +166,9 @@
 .project-section{
     padding: 5rem 5rem 10rem 5rem;
 }
+
+.pro2{
+    flex-direction: column-reverse;
+}
 }
 
-@media (max-width:550px) {
-    
-}
