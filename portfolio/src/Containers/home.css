@@ -1,7 +1,7 @@
 .home-section {
   height:100vh;
   width: 100%;
-  background: #f9f9f9;
+  background: radial-gradient(rgba(0, 0, 255, 0.244),rgba(255, 255, 255, 0.596));
   display: flex;
   flex-direction: column;
   padding: 15rem 15rem 5rem 15rem;

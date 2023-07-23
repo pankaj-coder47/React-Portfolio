@@ -7,7 +7,7 @@
     gap: 10rem;
     padding: 15rem 15rem 10rem 15rem;
     position: relative;
-    background:cadetblue;
+    background: linear-gradient(rgba(5, 97, 188, 0.248),#ffffff4d);
 }
 
 .about-image img {
