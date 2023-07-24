@@ -73,7 +73,7 @@
   background-size: cover;
   background-position: center;
   border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-  background-image: url("../assets/second.png");
+  background-image: url("../../assets/second.png");
   animation: blobber 8s 0s linear infinite, cobler 8s 0s linear infinite alternate;
 }
 
@@ -141,12 +141,9 @@
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   cursor: pointer;
-  transition: all 0.2s linear;
 
 }
-.home-logo ul li:hover{
-  background: radial-gradient(  #ffffff,rgb(255, 255, 255));
-}
+
 
 .home-logo ul li img {
   height: 4rem;

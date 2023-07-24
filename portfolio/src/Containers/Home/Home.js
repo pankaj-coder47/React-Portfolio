@@ -1,12 +1,7 @@
 import React from 'react'
 import './home.css'
-import Hello from '../assets/Hello.png'
-import htmlimg from '../assets/html.svg'
-import css from '../assets/css.svg'
-import js from '../assets/js.svg'
-import react from '../assets/react.svg'
-import tailwind from '../assets/tailwind.svg'
-import sass from '../assets/sass.svg'
+
+import { sass,tailwind,react,js,css,html,Hello } from '../../assets/imports'
 export default function Home() {
   return (
     <section id='Home' className='home-section'>
@@ -27,7 +22,7 @@ export default function Home() {
       <div className='pae'/>
       <div className="home-logo">
         <ul>
-          <li><img src={htmlimg} alt='htmllogo'/></li>
+          <li><img src={html} alt='htmllogo'/></li>
           <li><img src={css} alt='htmllog'/></li>
           <li><img src={js} alt='htmllogo'/></li>
           <li><img src={react} alt='htmllogo'/></li>

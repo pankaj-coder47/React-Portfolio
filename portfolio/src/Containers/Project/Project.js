@@ -1,6 +1,6 @@
 import React from 'react'
 import './project.css'
-import project from '../assets/about2.svg'
+import {about2} from "../../assets/imports"
 
 
 export default function Project() {
@@ -15,7 +15,7 @@ export default function Project() {
       <div className="project-box">
         <div className="project-grid pro">
           <div className="project-image-grid">
-            <img src={project} alt="" />
+            <img src={about2} alt="" />
           </div>
           <div className="project-text-desc">
             <h3>Project Name </h3>
@@ -50,7 +50,7 @@ export default function Project() {
             </div>
           </div>
           <div className="project-image-grid">
-            <img src={project} alt="" />
+            <img src={about2} alt="" />
           </div>
         </div>
       </div>
