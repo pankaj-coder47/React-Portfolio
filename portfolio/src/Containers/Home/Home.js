@@ -1,8 +1,11 @@
-import React from 'react'
+import React  from 'react'
 import './home.css'
 
 import { sass,tailwind,react,js,css,html,Hello } from '../../assets/imports'
-export default function Home() {
+export default function Home(props) {
+
+
+
   return (
     <section id='Home' className='home-section'>
       <div className="home-container">
